@@ -1,5 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
 import Final from "./Final";
 
@@ -12,9 +11,7 @@ function App() {
     console.log(value);
   };
   const hideElements = () => {
-    // e.currentTarget.classList.add("hide-elements");
     setDisplay("hide-elements");
-    // console.log(display);
   };
 
   return (
@@ -73,4 +70,3 @@ function App() {
 }
 
 export default App;
-// teste

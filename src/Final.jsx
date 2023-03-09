@@ -1,11 +1,6 @@
-import { useState } from "react";
 import "./App.css";
 
 function Final({ value }) {
-  //   const [value, setValue] = useState(0);
-  //   const handleClick = () => {
-  //     setValue("pants");
-  //   };
   console.log(value);
 
   return (
