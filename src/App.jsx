@@ -9,8 +9,7 @@ function App() {
   const handleClick = (rating) => {
     setSelectedRating(rating);
   };
-  const handleForm = (e) => {
-    e.preventDefault();
+  const handleForm = () => {
     setIsSubmitted(true);
   };
 
